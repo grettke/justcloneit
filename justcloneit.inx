@@ -22,7 +22,7 @@
     review the objects you created.
     - Sixth: When you are finished click "Close".
   </label>
-  <label appearance="header">Note</label>
+  <label appearance="header">Please Note</label>
   <label xml:space="preserve">
     - If you want to abort running this then click "Close".
     - This is a CLONE *not* a DUPLICATE.
