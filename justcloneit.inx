@@ -4,7 +4,7 @@
   <id>com.wisdomandwonder.justcloneit</id>
   <label appearance="header">Just Clone It!</label>
   <label xml:space="preserve">
-    Outcome:
+    This extension produces the outcome:
 
     - N clones of selected OBJECT.
     - Each moved horizontally positively by OBJECT-WIDTH.
