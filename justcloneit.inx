@@ -23,6 +23,7 @@
   <param name="name" type="boolean" gui-text="Some label text">false</param>
   <label appearance="header">Note</label>
   <label xml:space="preserve">- If you want to abort running this then click "Close".
+  - This is a CLONE *not* a DUPLICATE.
   </label>
   <effect>
     <effects-menu>
