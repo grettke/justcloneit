@@ -3,28 +3,32 @@
   <name>Just Clone It!</name>
   <id>com.wisdomandwonder.justcloneit</id>
   <label appearance="header">Just Clone It!</label>
-  <label xml:space="preserve">Outcome:
+  <label xml:space="preserve">
+    Outcome:
 
-  - N clones of selected OBJECT.
-  - Each moved horizontally positively by OBJECT-WIDTH.
+    - N clones of selected OBJECT.
+    - Each moved horizontally positively by OBJECT-WIDTH.
   </label>
   <label appearance="header">Steps</label>
-  <label xml:space="preserve">- First:  Select the object.
-  - Second: Run this extension.
-  - Third:  Choose the number of clones. The minimum is ONE.
-  - Fourth: Decide whether or not you want a "Live review".
-  - Fifth:  Run it by clicking "Apply". Each time you click
-  it executes this extension again performing another
-  Just Clone It! It is easy to run it more times
-  than you want if you didn't notice. Be sure to
-  review the objects you created.
-  - Sixth: When you are finished click "Close".
+  <label xml:space="preserve">
+    - First:  Select the object.
+    - Second: Run this extension.
+    - Third:  Choose the number of clones. The minimum is ONE.
+    - Fourth: Decide whether or not you want a "Live review".
+    - Fifth:  Run it by clicking "Apply". Each time you click
+    it executes this extension again performing another
+    Just Clone It! It is easy to run it more times
+    than you want if you didn't notice. Be sure to
+    review the objects you created.
+    - Sixth: When you are finished click "Close".
   </label>
-  <param name="name" type="boolean" gui-text="Some label text">false</param>
   <label appearance="header">Note</label>
-  <label xml:space="preserve">- If you want to abort running this then click "Close".
-  - This is a CLONE *not* a DUPLICATE.
+  <label xml:space="preserve">
+    - If you want to abort running this then click "Close".
+    - This is a CLONE *not* a DUPLICATE.
   </label>
+  <label appearance="header">Please tell me:</label>
+  <param name="number" type="int" min="1"  gui-text="How many clones would you like?">1</param>
   <effect>
     <effects-menu>
       <submenu name="Clone"/>
