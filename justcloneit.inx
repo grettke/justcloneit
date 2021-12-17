@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>Just Clone It!</name>
+  <id>com.wisdomandwonder.justcloneit</id>
+  <label appearance="header">Just Clone It!</label>
+    <label xml:space="preserve">Outcome:
+
+- N clones of selected OBJECT.
+- Each moved horizontally positively by OBJECT-WIDTH.
+</label>
+  <label appearance="header">Steps</label>
+  <label xml:space="preserve">- First:  Select the object.
+- Second: Run this extension.
+- Third:  Choose the number of clones. The minimum is ONE.
+- Fourth: Decide whether or not you want a "Live review".
+- Fifth:  Run it by clicking "Apply". Each time you click
+          it executes this extension again performing another
+          Just Clone It! It is easy to run it more times
+          than you want if you didn't notice. Be sure to
+          review the objects you created.
+- Sixth: When you are finished click "Close".
+</label>
+  <param name="name" type="boolean" gui-text="Some label text">false</param>
+  <label appearance="header">Note</label>
+    <label xml:space="preserve">- If you want to abort running this then click "Close".
+</label>
+  <effect>
+    <effects-menu>
+        <submenu name="Clone"/>
+    </effects-menu>
+    <object-type>all</object-type>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">justcloneit.py</command>
+  </script>
+</inkscape-extension>
