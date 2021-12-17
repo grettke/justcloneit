@@ -34,10 +34,10 @@
   <param name="number" type="int" min="1"  gui-text="How many clones would you like?">1</param>
 
   <effect>
+    <object-type>all</object-type>
     <effects-menu>
       <submenu name="Clone"/>
     </effects-menu>
-    <object-type>all</object-type>
   </effect>
 
   <script>
