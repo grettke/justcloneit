@@ -1,0 +1,23 @@
+#+TITLE: justcloneit
+
+* Coding
+
+#+BEGIN_SRC sh
+cd ~/src
+git clone git@github.com:grettke/justcloneit.git
+cd -
+#+END_SRC
+
+* Deployment
+
+** macOS
+
+#+begin_src bash
+cd /Applications/Inkscape.app/Contents/Resources/share/inkscape/extensions
+rm justcloneit.inx
+rm justcloneit.py
+ln -s ~/src/justcloneit/justcloneit.inx justcloneit.inx
+ln -s ~/src/justcloneit/justcloneit.py justcloneit.py
+cd -
+#+end_src
+
