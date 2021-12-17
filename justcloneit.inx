@@ -2,7 +2,7 @@
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
 
   <name>Just Clone It!</name>
-  <id>com.wisdomandwonder.justcloneit</id>
+  <id>com.wisdomandwonder.filter.clone</id>
 
   <label appearance="header">Just Clone It!</label>
   <label xml:space="preserve">
