@@ -1,47 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
 
-  <name>Just Clone It!</name>
-  <id>com.wisdomandwonder.filter.clone</id>
+    <name>Just Clone It!</name>
+    <id>com.wisdomandwonder.filter.clone</id>
 
-  <label appearance="header">Just Clone It!</label>
-  <label xml:space="preserve">
-    This extension produces the outcome:
+    <label appearance="header">Just Clone It!</label>
+    <label>Clone a single object horizontally.</label>
 
-    - N clones of selected OBJECT.
-    - Each moved horizontally positively by OBJECT-WIDTH.
-  </label>
-  <label appearance="header">Steps</label>
-  <label xml:space="preserve">
-    - First:  Select the object.
-    - Second: Run this extension.
-    - Third:  Choose the number of clones. The minimum is ONE.
-    - Fourth: Decide whether or not you want a "Live review".
-    - Fifth:  Run it by clicking "Apply". Each time you click
-    it executes this extension again performing another
-    Just Clone It! It is easy to run it more times
-    than you want if you didn't notice. Be sure to
-    review the objects you created.
-    - Sixth: When you are finished click "Close".
-  </label>
-  <label appearance="header">Please Note</label>
-  <label xml:space="preserve">
-    - If you want to abort running this then click "Close".
-    - This is a CLONE *not* a DUPLICATE.
-  </label>
-  <label appearance="header">Please tell me:</label>
+    <label appearance="header">Tip:</label>
+    <label>Create multiple clones in place by specifying an offset of zero.</label>
 
-  <param name="number" type="int" min="1"  gui-text="How many clones would you like?">1</param>
+    <label appearance="header">Configuration:</label>
 
-  <effect>
-    <object-type>all</object-type>
-    <effects-menu>
-      <submenu name="Clone"/>
-    </effects-menu>
-  </effect>
+    <effect>
+        <object-type>all</object-type>
+        <effects-menu>
+            <submenu name="Clone"/>
+        </effects-menu>
+    </effect>
 
-  <script>
-    <command location="inx" interpreter="python">justcloneit.py</command>
-  </script>
+    <script>
+        <command location="inx" interpreter="python">justcloneit.py</command>
+    </script>
 
 </inkscape-extension>
